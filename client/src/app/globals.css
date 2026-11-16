@@ -1,8 +1,33 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/roboto.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/roboto.woff") format("woff");
+  }
+
 body{
     background: black;
-    color: white;
+    color: #999999;
+}
+
+h1, h2{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 40pt;
 }
 
 span {
     color: blueviolet;
 }
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: blueviolet;
+}
+
