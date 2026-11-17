@@ -9,6 +9,15 @@
          url("/fonts/roboto.woff2") format("woff2"),
          /* Если браузер не поддерживает woff2, загрузит woff */
          url("/fonts/roboto.woff") format("woff");
+
+         src:url(/fonts/BebasNeue-webfont.eot);
+         src:url(/fonts/BebasNeue-webfont.eot?iefix) format('eot'),
+         url(/fonts/BebasNeue-webfont.woff) format('woff'),
+         url(/fonts/BebasNeue-webfont.ttf) format('truetype'),
+         url(/fonts/BebasNeue-webfont.svg#webfontfvFLBU0N) format('svg');
+         font-family:'BebasNeueRegular';
+         font-weight:normal;
+         font-style:normal;
   }
 
 body{
@@ -16,9 +25,40 @@ body{
     color: #999999;
 }
 
-h1, h2{
+h1{
+    font-family: "BebasNeueRegular", "Roboto", "Arial", sans-serif;
+    font-size:90pt;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-family: "BebasNeueRegular", "Roboto", "Arial", sans-serif;
+    font-size:45pt;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 0.2em 0 0 0;
+}
+
+.block-index {
+    padding: 50px;
+    margin: 0;
+}
+
+.block-stek {
+    padding: 0;
+    margin: 0.5em 0 2em 0;
+}
+
+.block-stek p {
     font-family: "Roboto", "Arial", sans-serif;
-    font-size: 40pt;
+    font-size:20pt;
+}
+
+.footer{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size:15pt;
 }
 
 span {

@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Разработка веб сайтов",
-  description: "Разработка веб сайтов",
+  description: "Создание веб сайтов. Полный цикл.",
+  keywords: "JavaScript, React.js, Next.js, CSS, OS Linux, NGINX, Node.js, Next.js, MySQL.",
 };
 
 export default function RootLayout({ children }) {
