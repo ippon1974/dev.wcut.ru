@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Metrika from "@/lib/metrika";
+import { Metadata } from 'next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Разработка веб сайтов",
   description: "Создание веб сайтов. Полный цикл.",
-  keywords: "JavaScript, React.js, Next.js, CSS, OS Linux, NGINX, Node.js, Next.js, MySQL.",
+  keywords: "JavaScript, React.js, Next.js, CSS, OS Linux, NGINX, Node.js, Next.js, MySQL",
 };
 
 export default function RootLayout({ children }) {
