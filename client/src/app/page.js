@@ -1,69 +1,22 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "@/styles/page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div>
+      <div className={styles.wrapper}>
+      <header>
+        <h1 className={styles.headerH1}>Разработка веб сайтов</h1>
+        <h2 className={styles.headerH2}>Технологический стек</h2>
+      </header>
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>
-            To get started, edit the{" "}
-            <code className={styles.code}>page.js</code> file.
-          </h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+        <p><strong>На стороне клиента (Frontend)</strong>: JavaScript, React.js, Next.js, CSS.</p>
+        <p><strong>На стороне сервера (Backend)</strong>: OS Linux, NGINX, Node.js, Nest.js, MySQL.</p>
       </main>
+      <footer className={styles.footer}>
+        <hr />
+        <p>Наша электропочта для техничеких заданий: <span>dev@wcut.ru</span></p>
+      </footer>
+      </div>
     </div>
   );
 }

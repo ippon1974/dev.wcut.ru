@@ -1,0 +1,84 @@
+@import url(res/index/429.css);
+
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/roboto.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/roboto.woff") format("woff");
+
+         src:url(/fonts/BebasNeue-webfont.eot);
+         src:url(/fonts/BebasNeue-webfont.eot?iefix) format('eot'),
+         url(/fonts/BebasNeue-webfont.woff) format('woff'),
+         url(/fonts/BebasNeue-webfont.ttf) format('truetype'),
+         url(/fonts/BebasNeue-webfont.svg#webfontfvFLBU0N) format('svg');
+         font-family:'BebasNeueRegular';
+         font-weight:normal;
+         font-style:normal;
+  }
+
+body{
+    background: black;
+    color: #999999;
+}
+
+.wrapper {
+    margin: 0 10px 0 10px;
+    padding: 0;
+}
+
+h1.headerH1 {
+    font-family: "BebasNeueRegular", "Roboto", "Arial", sans-serif;
+    font-size:90pt;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+h2.headerH2 {
+    font-family: "BebasNeueRegular", "Roboto", "Arial", sans-serif;
+    font-size:45pt;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 0.2em 0 0 0;
+}
+
+.main {
+    margin: 1em 0 1.5em 0;
+    padding: 0;
+}
+
+.main p {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size:20pt;
+    margin: 0 0 7px 0;
+    padding: 0;
+}
+
+.footer {
+    margin: 1em 0 1.5em 0;
+    padding: 0;
+}
+
+.footer hr {
+    border: none;
+    height: 1px;
+    background-color: blueviolet;
+}
+
+.footer p {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size:15pt;
+}
+
+.footer p span {
+    color: blueviolet;
+    font-weight: bold;
+}
+
