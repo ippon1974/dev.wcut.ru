@@ -14,7 +14,7 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
         <hr />
-        <p>Наша электропочта для техничеких заданий: <span>dev@wcut.ru</span></p>
+        <p>Электропочта: <span>dev@wcut.ru</span></p>
       </footer>
       </div>
     </div>
