@@ -1,4 +1,5 @@
 import styles from "@/styles/page.module.css";
+import CopyEmail from "@/components/UI/email/copyemail";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
         <hr />
-        <p>Электропочта: <span>dev@wcut.ru</span></p>
+        <CopyEmail />
       </footer>
       </div>
     </div>

@@ -1,0 +1,31 @@
+.email-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0px;
+    border-radius: 8px;
+  }
+
+  .email-text {
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: #1f2937;
+  }
+  
+  .copy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: #6b7280;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .copy-btn:hover {
+    background-color: #e5e7eb;
+    color: #111827;
+  }
