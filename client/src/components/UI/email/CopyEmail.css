@@ -29,3 +29,7 @@
     background-color: #e5e7eb;
     color: #111827;
   }
+
+  .copy-btn.copied {
+    background: black;
+  }
