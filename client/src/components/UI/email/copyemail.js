@@ -9,7 +9,7 @@ export default function CopyEmail() {
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
     setCopied(true);
-    setTimeout(() => setCopied(false), 4500);
+    setTimeout(() => setCopied(false), 1500);
   };
 
   return (
